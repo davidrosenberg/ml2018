@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>DS-GA 1003 / CSCI-GA 2567: Machine Learning and Computational Statistics, Spring 2018</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" media="only screen and (max-width: 770px)" href="styles/tablet-and-phone.css">
+<link rel="stylesheet" media="only screen and (max-width: 420px)" href="styles/phone.css">
+<link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="canonical" href="https://davidrosenberg.github.io/ml2018">
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#resources">Resources</a>
+    <a href="#lectures">Lectures</a>
+    <a href="#assignments">Assignments</a>
+    <a href="#project">Project</a>
+    <a href="#people">People</a>
+</nav>
+
+<section id="home">
+    <h1>
+        Machine Learning and Computational Statistics
+        <span class="course">
+            DS-GA 1003 / CSCI-GA 2567 · Spring 2018 ·
+            <a class="department" href="http://cds.nyu.edu/">NYU Center for Data Science</a>
+        </span>
+    </h1>
+
+    <table id="course-info">
+        <tr>
+            <th>Instructor</th>
+            <td>David Rosenberg <a class="icon email" href="mailto:dr129@nyu.edu"></a></td>
+        </tr>
+        <tr>
+            <th>Lecture</th>
+		        <td>Tuesday 5:20pm–7pm, <a href="http://4sq.com/zSEico">GSACL</a> C95 (<a href="https://goo.gl/maps/ot2J57vL4GL2">238 Thompson St.</a>)</td>
+        </tr>
+        <tr>
+            <th>Lab</th>
+		        <td>Wednesday 6:45pm–7:35pm, <a href="http://4sq.com/816YxF">MEYER</a> 121 (<a href="https://goo.gl/maps/75R9D6qb5An">4 Washington Pl</a>)</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Office Hours</th>
+            <td>Instructor: Wednesdays 5:00-6:00pm <a href="https://goo.gl/VoxR4R">CDS</a> (<a href="https://goo.gl/uU2EwV">60 5th Ave.</a>), 6th floor, Room 650</td>
+        </tr>
+        <tr>
+            <td>TA: Wednesdays 7:45-8:45pm, <a href="http://4sq.com/zSEico">GSACL</a> C15 (<a href="https://goo.gl/maps/ot2J57vL4GL2">238 Thompson St.</a>)</td>
+        </tr>
+        <tr>
+            <td>Graders: TBD</td>
+        </tr>
+    </table>
+
+</section>
+<section id="about">
+    <h1>About This Course</h1>
+
+    <div class="module">
+        <p>This course covers a wide variety of topics in machine learning and statistical modeling. While mathematical methods and theoretical aspects will be covered, the primary goal is to provide students with the tools and principles needed to solve the data science problems found in practice.  This course also serves as a foundation on which more specialized courses and further independent study can build.</p>
+
+        <p>This course was designed as part of the core curriculum for the Center for Data Science's <a href="http://cds.nyu.edu/academics/ms-in-data-science/">Masters degree in Data Science</a>. Other interested students who satisfy the prerequisites are welcome to take the class as well.  This class is intended as a continuation of <a href="http://cds.nyu.edu/course-pages/ds-ga-1001-intro-data-science/">DS-GA-1001 Intro to Data Science</a>, which covers some important, fundamental data science topics that may not be explicitly covered in this DS-GA class (e.g. data cleaning, cross-validation, and sampling bias).</p>
+
+        <p>We will use <a href="https://piazza.com/">Piazza</a> for class discussion. Rather than emailing questions to the teaching staff, please <a href="https://piazza.com/nyu/spring2018/dsga1003/home">post your questions on Piazza</a>, where they will be answered by the instructor, TAs, graders, and other students.  For questions that are not specific to the class, you are also encouraged to post to <a href="http://stackoverflow.com/">Stack Overflow</a> for programming questions and <a href="http://stats.stackexchange.com/">Cross Validated</a> for statistics and machine learning questions.  Please also post a link to these postings in Piazza, so others in the class can answer the questions and benefit from the answers.
+
+        <!-- Without registering, you can also view an <a href="https://piazza.com/class/i2jg9qgaxwr5fq?cid=14">anonymized version of our Piazza board</a>.</p> -->
+
+        <p>Other information:</p>
+        <ul>
+            <!-- -  <li>Course details can be found in the <a href="https://davidrosenberg.github.io/mlcourse/syllabusDS-GA1003-Spring2017.pdf">syllabus</a>.</li>   -->          
+    	    <!--                 <li> Video recordings of lectures can be found at <a href="http://techtalks.tv/machine_learning_spring_2016/">http://techtalks.tv/machine_learning_spring_2016/</a>. -->
+            <!--             <li>The <a href="https://www.google.com/calendar/embed?src=q5os9dtr9kebkkvv17lqtqj5qc%40group.calendar.google.com&ctz=America/New_York">Course Calendar</a> contains all class meeting dates.</li> -->
+            <li>All course materials are stored in a <a href="https://github.com/davidrosenberg/mlcourse">GitHub repository</a>.  Check the repository to see when something was last updated.</li>
+            <li>For registration information, please contact <a href="mailto:kangeles@nyu.edu">Kathryn Angeles</a>.</li>
+            <li><em>The course conforms to <a href="http://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html">NYU’s policy on academic integrity for students</a>.</em></li>
+        </ul>
+    </div>
+
+    <section>
+        <h1>Prerequisites</h1>
+        <ul>
+            <li><a href="https://github.com/briandalessandro/DataScienceCourse/blob/master/ipython/references/Syllabus_2017.pdf"><strong>DS-GA-1001: Intro to Data Science</strong></a> or its equivalent</li>
+            <li><a href="http://www.cims.nyu.edu/~cfgranda/pages/DSGA1002_fall15/index.html"><strong>DS-GA-1002: Statistical and Mathematical Methods</strong></a> or its equivalent</li>
+            <li><strong>Solid mathematical background</strong>, equivalent to a 1-semester undergraduate course in each of the following: linear algebra, multivariate calculus (primarily differential calculus), probability theory, and statistics.  (The coverage in the 2015 version of DS-GA 1002, linked above, is sufficient.)</li>
+            <li><strong>Python programming required</strong> for most homework assignments.</li>
+            <li><em>Recommended:</em> Computer science background up to a "data structures and algorithms" course</li>
+            <li><em>Recommended:</em> At least one advanced, proof-based mathematics course</li>
+            <li>Some prerequisites may be waived with permission of the instructor</li>
+            <li>You can also self-assess your preparation by filling out the <a href="https://davidrosenberg.github.io/mlcourse/Notes/prereq-questions/prereq-self-assessment.pdf">Prerequisite Questionnaire</a></li>
+        </ul>
+    </section>
+    <section>
+        <h1>Grading</h1>
+        <p><strong>Homework (40%) + Midterm Exam (20%) + Final Exam (20%) + Project (20%)</strong></p>
+        <p>
+            Many homework assignments will have problems designated as “optional”.  At the end of the semester, strong performance on these problems may lift the final course grade by up to half a letter grade (e.g. B+ to A-  or A- to A), especially for borderline grades.  You should view the optional problems primarily as a way to engage with more material, if you have the time.  Along with the performance on optional problems, we will also consider significant contributions to Piazza and in-class discussions for boosting a borderline grade.
+        </p>
+    </section>
+
+    <section>
+        <h1>Important Dates</h1>
+        <ul>
+            <li><strong>Midterm Exam</strong> (100 min) Tuesday, March 6th, 5:20–7pm.</li>
+            <li><strong>Final Exam</strong> (100 min) Tentatively May 15th.</li>
+            <li>See <a href="#assignments">Assignments</a> section for homework-related deadlines.</li>
+            <li>See <a href="#project">Project</a> section for project-related deadlines.</li>
+        </ul>
+    </section>
+
+
+</section>
+
+<section id="resources">
+    <h1>Resources</h1>
+
+    <section id="textbooks">
+        <h1>Textbooks</h1>
+
+        <a href="https://web.stanford.edu/~hastie/ElemStatLearn/"><img src="images/hastie-1x.png" srcset="images/hastie-1x.png 1x, images/hastie-2x.jpg 2x, images/hastie-3x.jpg 3x" alt="The cover of Elements of Statistical Learning"></a>
+
+        <a href="http://www-bcf.usc.edu/~gareth/ISL/"><img src="images/james-1x.jpg" srcset="images/james-1x.jpg 1x, images/james-2x.jpg 2x, images/james-3x.jpg 3x" alt="The cover of An Introduction to Statistical Learning"></a>
+
+        <a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/"><img src="images/shalev-shwartz-original.jpg" alt="The cover of Understanding Machine Learning: From Theory to Algorithms"></a>
+
+        <a href="http://a.co/77AlDxk"><img src="images/bishop-1x.jpg" srcset="images/bishop-1x.jpg 1x, images/bishop-2x.jpg 2x, images/bishop-3x.jpg 3x" alt="The cover of Pattern Recognition and Machine Learning"></a>
+
+        <a href="http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage"><img src="images/barber-1x.jpg" srcset="images/barber-1x.jpg 1x, images/barber-2x.jpg 2x, images/barber-3x.jpg 3x" alt="The cover of Bayesian Reasoning and Machine Learning"></a>
+
+        <dl>
+
+            <dt><a href="http://statweb.stanford.edu/~hastie/ElemStatLearn/"><cite>The
+            Elements of Statistical Learning</cite> (Hastie, Friedman, and Tibshirani)</a>
+            <dd>This will be our main textbook for L1 and L2 regularization, trees, bagging, random forests, and boosting.  It's written by three statisticians who invented many of the techniques discussed. There's an easier version of this book that covers many of the same topics, described below. (Available for free as a PDF.)
+
+            <dt><a href="http://www-bcf.usc.edu/~gareth/ISL/"><cite>An Introduction to Statistical Learning</cite> (James, Witten, Hastie, and Tibshirani)</a>
+            <dd>This book is written by two of the same authors as The Elements of Statistical Learning. It's much less intense mathematically, and it's good for a lighter introduction to the topics. (Available for free as a PDF.)
+
+    	    <dt><a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning"><cite>Understanding Machine Learning: From Theory to Algorithms</cite> (Shalev-Shwartz and Ben-David)</a>
+    	    <dd>Last year this was our primary reference for kernel methods and multiclass classification, and we may use it even more this year.  Covers a lot of theory that we don't go into, but it would be a good supplemental resource for a more theoretical course, such as Mohri's <a href="http://www.cs.nyu.edu/~mohri/ml17/">Foundations of Machine Learning</a> course. (Available for free as a PDF.)
+
+              <dt><a href="http://a.co/77AlDxk"><cite>Pattern Recognition and Machine Learning</cite> (Christopher Bishop)</a>
+    	    <dd>Our primary reference for probabilistic methods, including bayesian regression, latent variable models, and the EM algorithm.  It's highly recommended, but unfortunately not free online.
+
+    	    <dt><a href="http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage"><cite>Bayesian Reasoning and Machine Learning</cite> (David Barber)</a>
+    	    <dd>A very nice resource for our topics in probabilistic modeling, and a possible substitute for the Bishop book.  Would serve as a good supplemental reference for a more advanced course in probabilistic modeling, such as <a href="https://inf16nyu.github.io/home/">DS-GA 1005: Inference and Representation</a> (Available for free as a PDF.)
+        </dl>
+
+        <dt><a href="http://shop.oreilly.com/product/0636920052289.do"><cite>Hands-On Machine Learning with Scikit-Learn and TensorFlow</cite> (Aurélien Géron)</a>
+            <dd>This is a practical guide to machine learning that corresponds fairly well with the content and level of our course.  While most of our homework is about coding ML from scratch with numpy, this book makes heavy use of scikit-learn and TensorFlow. Comfort with the first two chapters of this book would be part of the ideal preparation for this course, and it will also be a handy reference for your projects and work beyond this course, when you'll want to make use of existing ML packages, rather than rolling your own.</dd>
+
+    	      <dt><a href="http://www.data-science-for-biz.com/DSB/Home.html"><cite>Data Science for Business</cite> (Provost and Fawcett)</a>
+    	          <dd>Ideally, this would be everybody's first book on machine learning.  The intended audience is both the ML practitioner and the ML product manager.  It's full of important core concepts and practical wisdom.  The math is so minimal that it's perfect for reading on your phone, and I encourage you to read it in parallel to doing this class, especially if you haven't taken DS-GA 1001.</dd>
+            </dt>
+
+
+    </section>
+
+    <section id="references">
+        <h1>Other tutorials and references</h1>
+
+        <ul>
+            <li><a href="http://www.cims.nyu.edu/~cfgranda/pages/DSGA1002_fall15/notes.html">Carlos Fernandez-Granda's lecture notes</a> provide a comprehensive review of the prerequisite material in linear algebra, probability, statistics, and optimization.
+    	    <li><a href="http://nbviewer.ipython.org/github/briandalessandro/DataScienceCourse/tree/master/ipython/">Brian Dalessandro's iPython notebooks</a> from <a href="https://github.com/briandalessandro/DataScienceCourse/blob/master/ipython/references/Syllabus_2017.pdf"><strong>DS-GA-1001: Intro to Data Science</strong></a>
+            <li><a href="http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=3274">The Matrix Cookbook</a> has lots of facts and identities about matrices and certain probability distributions.
+            <li><a href="http://cs229.stanford.edu/section/cs229-prob.pdf">Stanford CS229: "Review of Probability Theory"</a>
+            <li><a href="http://cs229.stanford.edu/section/cs229-linalg.pdf">Stanford CS229: "Linear Algebra Review and Reference"</a>
+            <li><a href="http://www.umiacs.umd.edu/~hal/courses/2013S_ML/math4ml.pdf">Math for Machine Learning</a> by Hal Daumé III
+        </ul>
+    </section>
+
+    <section id="software">
+        <h1>Software</h1>
+
+        <ul>
+            <li><a href="http://www.numpy.org/">NumPy</a> is "the fundamental package for scientific computing with Python." Our homework assignments will use NumPy arrays extensively.
+            <li><a href="http://scikit-learn.org/stable/">scikit-learn</a> is a comprehensive machine learning toolkit for Python. We won't use this for most of the homework assignments, since we'll be coding things from scratch. However, you may want to run the scikit-learn version of the algorithms to check that your own outputs are correct. Most people will use it for their final projects. Also, studying the source code can be a good learning experience.
+        </ul>
+    </section>
+</section>
+
+<section id="lectures">
+    <h1>Lectures</h1>
+
+    <ul class="abbreviations">
+        <li> (HTF) refers to Hastie, Tibshirani, and Friedman's book <a href="http://statweb.stanford.edu/~tibs/ElemStatLearn/"><cite>The Elements of Statistical Learning</cite></a>
+        <li> (SSBD) refers to Shalev-Shwartz and Ben-David's book <a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html/"><cite>Understanding Machine Learning: From Theory to Algorithms</cite></a>
+        <li> (JWHT) refers to James, Witten, Hastie, and Tibshirani's book <a href="http://www-bcf.usc.edu/~gareth/ISL"><cite>An Introduction to Statistical Learning</cite></a>
+    </ul>
+
+        <section class="module" id="lecture-week-0">
+            <h1>Week 0</h1>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Slides</th>
+                        <th>Notes</th>
+                        <th>References</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Prerequisites
+                                <span class="date">Jan 1</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Archive/2017Fall/Lectures/01.black-box-ML.pdf">Black Box Machine Learning</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                <ul>
+                                        <li><a href="https://github.com/ageron/handson-ml/blob/master/01_the_machine_learning_landscape.ipynb">Géron's Machine Learning Landscape</a></li>
+    
+                                        <li><a href="https://github.com/ageron/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb">Géron's End-to-End Machine Learning</a></li>
+                                </ul>
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li>Provost and Fawcett book</li>
+    
+                                        <li><a href="https://getit.library.nyu.edu/go/9443019">Géron Ch 1,2</a></li>
+                                </ul>
+                        </td>
+                    </tr>
+            </table>
+        </section>
+        <section class="module" id="lecture-week-1">
+            <h1>Week 1</h1>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Slides</th>
+                        <th>Notes</th>
+                        <th>References</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lecture
+                                <span class="date">Jan 23</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/01a.course-logistics.pdf">Course Logistics</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/Lectures/01b.intro-slt-riskdecomp.pdf">Statistical Learning Theory</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/Lectures/01c.stoch-grad-descent.pdf">Stochastic Gradient Descent</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check.pdf">SLT and SGD Concept Check Questions</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check_sol.pdf">SLT and SGD Concept Check Solutions</a></li>
+                                </ul>
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li><a href="http://leon.bottou.org/papers/bottou-tricks-2012">Bottou's SGD Tricks</a></li>
+                                </ul>
+                        </td>
+                    </tr>
+            </table>
+        </section>
+</section>
+<section id="assignments">
+    <h1>Assignments</h1>
+
+    <div class="policies">
+        <p><strong>Late Policy:</strong> Homeworks are due at 10pm on the date specified.  Homeworks will still be accepted for 48 hours after this time but will have a 20% penalty.</p>
+
+        <p><strong>Collaboration Policy:</strong> You may discuss problems with your classmates. However, you must write up the homework solutions and the code from scratch, without referring to notes from your joint session.  In your solution to each problem, you must write down the names of any person with whom you discussed the problem—this will not affect your grade.</p>
+
+        <p><strong>Homework Submission:</strong> Homework should be submitted through <a href="https://gradescope.com">Gradescope</a>.  If you have not used Gradescope before, please watch this short video: <a href="https://gradescope.com/get_started">"For students: submitting homework."</a>  At the beginning of the semester, you will be added to the Gradescope class roster. This will give you access to the course page, and the assignment submission form. To submit assignments, you will need to:</p>
+        <ol>
+            <li> Upload a single PDF document containing all the math, code, plots, and exposition required for each problem.</li>
+            <li> Where homework assignments are divided into sections, <strong>please begin each section on a new page</strong>.</li>
+            <li> You will then select the appropriate page ranges for each homework problem, as described in the "submitting homework" video.</li>
+        </ol>
+        <p><strong>Homework Feedback:</strong> Check <a href="https://gradescope.com">Gradescope</a> to get your scores on each individual problem, as well as comments on your answers. Since Gradescope cannot distinguish between required and optional problems, final homework scores, separated into required and optional parts, will be posted on  <a href="https://newclasses.nyu.edu/portal">NYUClasses</a>.</p>
+    </div>
+
+        <section class="homework" id="assignment-homework-0">
+            <div class="module">
+                <div class="title">
+                    <h1>Homework 0</h1>
+                    <p>Typesetting your homework</p>
+                </div>
+                <p class="deadline"><strong>Due:</strong> February 1st, 10pm</p>
+                <div class="files">
+                        <a href="https://davidrosenberg.github.io/mlcourse/Archive/2017/Homework/hw0.pdf" class="pdf icon">hw0.pdf</a>
+                        <a href="https://davidrosenberg.github.io/mlcourse/Archive/2017/Homework/hw0.zip" class="zip icon">hw0.zip</a>
+                </div>
+            </div>
+        </section>
+</section>
+
+<section id="project">
+    <h1>Project</h1>
+    <section>
+    <h1> Overview</h1>
+    <p>The project is your opportunity for in-depth engagement with a data science problem. In job interviews, it's often your course projects that you end up discussing, so it has some importance even beyond this class. That said, it's better to pick a project that you will be able to go deep with (in terms of trying different methods, feature engineering, error analysis, etc.), than choosing a very ambitious project that requires so much setup that you will only have time to try one or two approaches.</p>
+    </section>
+    <section>
+        <h1>Key Dates</h1>
+        <ul>
+            <li><strong>Feb 28 (Tues 5pm)</strong>: Deadline for choosing project groups</li>
+            <li><strong>March 6 (Mon 9pm)</strong>: Email one-sentence project idea(s) to adviser, along with personal intros</li>
+            <li><strong>March 8 (Wed 8:35–9:25pm)</strong>: First meeting with advisers. Each group will give a 5-minute presentation of their project idea to their assigned project adviser, followed by brief discussing with adviser.</li>
+            <li><strong>March 23 (Thurs 6pm)</strong>: Project Proposals Due</li>
+            <li><strong>Apr 19th (Wed 8:35–9L25pm)</strong>: Second meeting with advisers</li>
+            <li><strong>May 3rd (Wed 8:35–9:25pm)</strong>: Third meeting with advisers</li>
+            <li><strong>May 9th (Tues 5–7pm)</strong>:  Project Poster Session in <a href="https://goo.gl/VoxR4R">CDS</a>, 7th floor</li>
+            <li><strong>May 12th, 6pm</strong>: Final Project Reports Due</li>
+        </ul>
+    </section>
+    <section>
+        <h1>Guidelines for Project Topics</h1>
+        <p>A good project for this class is one that's a real "problem", in the sense that you have something you want to accomplish, and it's not necessarily clear from the beginning the best approach. The techiques used should be relevant to our class, so most likely you will be building a prediction system. A probabilistic model would also be acceptable, though we will not be covering these topics until later in the semester.</p>
+
+        <p>To be clear, the following approaches would be less than ideal:</p>
+        <ol>
+            <li>Finding an interesting ML algorithm, implementing it, and seeing how it works on some data. This is not appropriate because I want your choice of methods to be driven by the problem you are trying to solve, and not the other way around.</li>
+            <li>Choosing a well-known problem (e.g. MNIST digit classification or the Netflix problem) and trying out some of our ML methods on it. This is better than the previous example, but with a very well-established dataset, a lot of the most important and challenging parts of real-world data science are left out, including defining the problem, defining the success metric, and finding the right way to encode the data.</li>
+            <li>Choosing a problem related to predicting stock prices.  Historically, these projects are the most troubled.  Interestingly, our project advisers who have worked in this field are the ones who advise against this most strongly.</li>
+        </ol>
+    </section>
+    <section>
+        <h1>Project proposal guidelines</h1>
+        <p>The project proposal should be roughly 2 pages, though it can be longer if you want to include figures or sample data that will be helpful to your presentation. Your proposal should do the following:</p>
+        <ol>
+            <li>Clearly explain the high-level problem you are trying to solve (e.g. predict movie ratings, predict the outcome of a court case, ...).</li>
+            <li>Identify the data set or data sets that you will be using. You should give a clear description of the characteristics of the data (how many examples, what kinds of features do we have for each example, are there issues with missing data or bad data, etc.).</li>
+            <li>How will you evaluate performance? In certain settings, you may want to try a few different performance measures.</li>
+            <li>Identify a few "baseline algorithms". These are simple algorithms for solving the problem, such as always predicting the majority class for a classification problem, using a small set of decision rules designed by hand, or using a ridge regression model on a basic feature set. Ideally, you will be able to report the performance of a couple baseline algorithms in your proposal. The goal will be to beat the baseline, so if the baseline is already quite high, you will have a challenge.</li>
+            <li>What methods do you plan to try to solve your problem, along with a rough timeline. Methods include data preprocessing, feature generation, and the ML models you'll be trying. Once you start your investigation, it's best to use an iterative approach, where the method you choose next is based on an understanding of the results of the previous step.</li>
+        </ol>
+    </section>
+    <section>
+        <h1>Some Previous Projects</h1>
+        <ul>
+            <li><a href="https://github.com/wtadler/attitudes-and-the-court">Social attitudes cannot be predicted from federal court decisions and judge characteristics.</a></li>
+            <li><a href="https://github.com/ShangLanyu/machine_learning">What Matters: Agreement between U.S. Courts of Appeals Judges</a></li>
+            <li><a href="https://github.com/fducau/ML2016_EDU">Probability Estimation for Online Education System</a></li>
+            <li><a href="https://github.com/ismailmustafa/predictingRefugeeAsylum-avengers">Using Predictive Models to Determine Judge Bias in Asylum Refugee Court Cases</a></li>
+            <li><a href="https://github.com/cryanzpj/1003/tree/master/project">E-Commerce Recommender Modeling: A Case Study of Ponpare Coupon Purchase Prediction.</a></li>
+            <li><a href="https://github.com/prithvikg/mlcsProject/blob/master/Report/TEAM-DS-Final_report.pdf">Predicting Job Markets in India using heavy tailed regression</a></li>
+            <li><a href="https://github.com/yoyo1989/ml2015-course-project">Resampling the Spectral Time Series of a SN in the Time Dimension</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h1>Some Public Data Sets (just to get you thinking)</h1>
+        <ul>
+            <li><a href="http://aws.amazon.com/datasets">Datasets on Amazon's AWS cloud</a></li>
+            <li><a href="http://www.yelp.com/dataset_challenge">Yelp Dataset Challenge</a></li>
+            <li><a href="https://data.cityofnewyork.us/browse">NYC Open Data</a></li>
+            <li><a href="http://catalog.data.gov/dataset">Data.gov</a></li>
+            <li><a href="http://data.un.org/">UN Data</a></li>
+            <li><a href="https://www.kaggle.com/datasets">Kaggle</a></li>
+            <li><a href="http://www.quandl.com/">Quandl financial, economic, social datasets</a></li>
+            <li><a href="https://grouplens.org/datasets/movielens/">Rating data sets from MovieLens</a></li>
+            <li><a href="http://www.govtrack.us/developers/data">Congress voting records</a></li>
+            <li><a href="http://www.quora.com/Data/Where-can-I-find-large-datasets-open-to-the-public">Quota's meta list of datasets</a></li>
+        </ul>
+    </section>
+</section>
+<section id="people">
+    <h1>People</h1>
+
+    <section>
+        <h1>Instructor</h1>
+
+        <div class="person module instructor">
+            <img src="images/people/david.jpg" alt="A photo of David Rosenberg">
+            <div class="info">
+                <p class="name"><a href="http://www.linkedin.com/pub/david-rosenberg/4/241/598">David Rosenberg</a></p>
+                <p class="email"><a href="mailto:dr129@nyu.edu">dr129@nyu.edu</a></p>
+                <p class="bio">David is a data scientist in the office of the CTO at <a href="http://www.bloomberglabs.com/data-science/">Bloomberg L.P.</a> Formerly he was Chief Scientist of <a href="http://national.yp.com/mobile/labs/">YP Mobile Labs</a> at <a href="http://www.yellowpages.com">YP</a>. </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Teaching Assistants</h1>
+
+        <div class="person module instructor">
+            <img src="images/people/ben.jpg" alt="A photo of Ben Jakubowski">
+            <div class="info">
+                <p class="name"><a href="">Ben Jakubowski</a></p>
+                <p class="bio">Ben is a second year Data Science
+                    MS student. He also works part-time as a data
+                    science instructor with the start-up Cognitir.</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+<footer>
+    <p>This website is developed <a href="https://github.com/davidrosenberg/ml2018/">on GitHub</a>; feel free to <a href="https://github.com/davidrosenberg/ml2018/issues">report issues or send feature requests</a>.</p>
+</footer>
+
+<script async defer src="scripts/navigation.js"></script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-64247420-3', 'auto');
+    ga('send', 'pageview');
+
+</script>
