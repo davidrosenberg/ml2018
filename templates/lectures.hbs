@@ -1,0 +1,62 @@
+{{#each this}}
+    <section class="module" id="{{lectureSlug this}}">
+        <h1>{{Title}}</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Slides</th>
+                    <th>Notes</th>
+                    <th>References</th>
+                </tr>
+            </thead>
+            {{#each Events}}
+                <tr>
+                    <th class="label">
+                        <h1>
+                            {{Label}}
+                            <span class="date">{{shortDate @key}}</span>
+                            {{#if Video}}
+                                <a class="video" href="{{Video}}">Video</a>
+                            {{/if}}
+                        </h1>
+                    </th>
+                    <td class="slides">
+                        <h1 class="phone-only-block">Slides</h1>
+                        {{#if Slides}}
+                            <ul>{{#each Slides}}
+                                    <li>{{maybeLink this}}</li>
+                                {{/each}}
+                            </ul>
+                        {{else}}
+                            (None)
+                        {{/if}}
+                    </td>
+                    <td class="notes">
+                        <h1 class="phone-only-block">Notes</h1>
+                        {{#if Notes}}
+                            <ul>{{#each Notes}}
+                                    <li>{{maybeLink this}}</li>
+                                {{/each}}
+                            </ul>
+                        {{else}}
+                            (None)
+                        {{/if}}
+                    </td>
+                    <td class="references">
+                        <h1 class="phone-only-block">References</h1>
+                        {{#if References}}
+                            <ul>{{#each References}}
+                                    <li>{{maybeLink this}}</li>
+                                {{/each}}
+                            </ul>
+                        {{else}}
+                            (None)
+                        {{/if}}
+                    </td>
+                </tr>
+            {{/each}}
+        </table>
+    </section>
+{{/each}}
