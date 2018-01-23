@@ -19,9 +19,10 @@
     2018-01-23:
       Label: Lecture
       Slides:
-        - {Course Logistics: "https://davidrosenberg.github.io/mlcourse/Lectures/01a.course-logistics.pdf"}
+        - {Course Logistics and Overview: "https://davidrosenberg.github.io/mlcourse/Lectures/01a.course-logistics.pdf"}
         - {Statistical Learning Theory: "https://davidrosenberg.github.io/Lectures/01b.intro-slt-riskdecomp.pdf"}
-        - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/Lectures/01c.stoch-grad-descent.pdf"}
+        - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/Lectures/01c.SGD.pdf"}
+        - {Excess Risk Decomposition: "https://davidrosenberg.github.io/Lectures/01d.excess-risk-decomposition.pdf"}
       Notes:
         - {SLT and SGD Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check.pdf"}
         - {SLT and SGD Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check_sol.pdf"}
