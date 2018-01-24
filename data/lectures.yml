@@ -2,7 +2,7 @@
   Title: Week 0
   Events:
     2000-01-01:
-      Label: Prerequisites
+      Label: ML Prereqs
 #      Video: "https://youtu.be/U6M0m9c9_Js"
       Slides:
         - {Black Box Machine Learning: "https://davidrosenberg.github.io/mlcourse/Archive/2017Fall/Lectures/01.black-box-ML.pdf"}
@@ -20,9 +20,9 @@
       Label: Lecture
       Slides:
         - {Course Logistics and Overview: "https://davidrosenberg.github.io/mlcourse/Lectures/01a.course-logistics.pdf"}
-        - {Statistical Learning Theory: "https://davidrosenberg.github.io/Lectures/01b.intro-slt-riskdecomp.pdf"}
-        - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/Lectures/01c.SGD.pdf"}
-        - {Excess Risk Decomposition: "https://davidrosenberg.github.io/Lectures/01d.excess-risk-decomposition.pdf"}
+        - {Statistical Learning Theory: "https://davidrosenberg.github.io/mlcourse/Lectures/01b.intro-stat-learning-theory.pdf"}
+        - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Lectures/01c.SGD.pdf"}
+#        - {Excess Risk Decomposition: "https://davidrosenberg.github.io/mlcourse/Lectures/01d.excess-risk-decomposition.pdf"}
       Notes:
         - {SLT and SGD Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check.pdf"}
         - {SLT and SGD Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check_sol.pdf"}

@@ -4,6 +4,13 @@ Submit link: "https://gradescope.com"
 -
   Label: Homework 0
   Description: Typesetting your homework
-  Due: 2018-02-01
+  Due: 2000-01-01
   PDF: {hw0.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Homework/hw0.pdf"}
   ZIP: {hw0.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Homework/hw0.zip"}
+-
+  Label: Homework 1
+  Description: GD, SGD, and Ridge Regression
+  Due: 2018-02-01
+  PDF: {hw1.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw1.pdf"}
+  ZIP: {hw1.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw1.zip"}
+
