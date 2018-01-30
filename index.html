@@ -58,26 +58,32 @@
     
         <div class="week-summary">
                 <section>
-                    <h1><a href="#lecture-week-1">Slides</a></h1>
+                    <h1><a href="#lecture-week-2">Slides</a></h1>
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/01a.course-logistics.pdf">Course Logistics and Overview</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/01b.intro-stat-learning-theory.pdf">Statistical Learning Theory</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/01c.SGD.pdf">Stochastic Gradient Descent</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/02a.SGD.pdf">Stochastic Gradient Descent</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/02b.excess-risk-decomposition.pdf">Excess Risk Decomposition</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/02c.L1L2-regularization.pdf">L1 and L2 regularization</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-1">Notes</a></h1>
+                    <h1><a href="#lecture-week-2">Notes</a></h1>
     
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check.pdf">SLT and SGD Concept Check Questions</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check_sol.pdf">SLT and SGD Concept Check Solutions</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check.pdf">PreLecture Concept Check Questions</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check_sol.pdf">PreLecture Concept Check Solutions</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/completing-the-square.pdf">Completing the Square</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-Lec-Check.pdf">Lecture Concept Check Questions</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-Lec-Check_sol.pdf">Lecture Concept Check Solutions</a></li>
+                                <li><a href="https://github.com/davidrosenberg/mlcourse/blob/gh-pages/Notebooks/Lasso%20and%20Elastic%20Net/lasso_and_elastic_net.ipynb">Lasso and Elastic Net (ipynb)</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-1">References</a></h1>
+                    <h1><a href="#lecture-week-2">References</a></h1>
     
                     <ul>
-                                <li><a href="http://leon.bottou.org/papers/bottou-tricks-2012">Bottou's SGD Tricks</a></li>
+                                <li>HTF Ch. 3</li>
+                                <li><a href="https://arxiv.org/pdf/1411.3230v2.pdf">Mairal, Bach, and Ponce on Sparse Modeling</a></li>
+                                <li>HTF 3.4</li>
                     </ul>
                 </section>
                 <section class="assignment">
@@ -91,6 +97,7 @@
                     </div>
                 </section>
     
+            <p>SGD, excess-risk decomposition, and L1/L2 regularization</p>
         </div>
     </section>
 </section>
@@ -313,6 +320,116 @@
                             <h1 class="phone-only-block">References</h1>
                                 <ul>
                                         <li><a href="http://leon.bottou.org/papers/bottou-tricks-2012">Bottou's SGD Tricks</a></li>
+                                </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lab
+                                <span class="date">Jan 24</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Labs/1-gradients-Slides.pdf">Gradients and Directional Derivatives</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Labs/1-gradients-Notes_sol.pdf">Gradients and Directional Derivatives</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lab-Check.pdf">Gradient Concept Check Questions</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lab-Check_sol.pdf">Gradient Concept Check Solutions</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/directional-derivative.pdf">Directional Derivatives and Approximation (Short)</a></li>
+                                </ul>
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li><a href="http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf">Barnes "Matrix Differentiation" notes</a></li>
+                                </ul>
+                        </td>
+                    </tr>
+            </table>
+        </section>
+        <section class="module" id="lecture-week-2">
+            <h1>Week 2</h1>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Slides</th>
+                        <th>Notes</th>
+                        <th>References</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lecture
+                                <span class="date">Jan 30</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/02a.SGD.pdf">Stochastic Gradient Descent</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/02b.excess-risk-decomposition.pdf">Excess Risk Decomposition</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/02c.L1L2-regularization.pdf">L1 and L2 regularization</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check.pdf">PreLecture Concept Check Questions</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check_sol.pdf">PreLecture Concept Check Solutions</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/completing-the-square.pdf">Completing the Square</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-Lec-Check.pdf">Lecture Concept Check Questions</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-Lec-Check_sol.pdf">Lecture Concept Check Solutions</a></li>
+                                </ul>
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li>HTF Ch. 3</li>
+    
+                                        <li><a href="https://arxiv.org/pdf/1411.3230v2.pdf">Mairal, Bach, and Ponce on Sparse Modeling</a></li>
+                                </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lab
+                                <span class="date">Jan 31</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                (None)
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                <ul>
+                                        <li><a href="https://github.com/davidrosenberg/mlcourse/blob/gh-pages/Notebooks/Lasso%20and%20Elastic%20Net/lasso_and_elastic_net.ipynb">Lasso and Elastic Net (ipynb)</a></li>
+                                </ul>
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li>HTF 3.4</li>
                                 </ul>
                         </td>
                     </tr>
