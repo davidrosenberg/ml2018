@@ -28,3 +28,40 @@
         - {SLT and SGD Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check_sol.pdf"}
       References:
         - {"Bottou's SGD Tricks": "http://leon.bottou.org/papers/bottou-tricks-2012"}
+    2018-01-24:
+      Label: Lab 
+      Slides:
+        - {Gradients and Directional Derivatives: "https://davidrosenberg.github.io/mlcourse/Labs/1-gradients-Slides.pdf"}
+      Notes:
+        - {Gradients and Directional Derivatives: "https://davidrosenberg.github.io/mlcourse/Labs/1-gradients-Notes_sol.pdf"}
+        - {Gradient Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lab-Check.pdf"}
+        - {Gradient Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lab-Check_sol.pdf"}
+        - {Directional Derivatives and Approximation (Short): "https://davidrosenberg.github.io/mlcourse/Notes/directional-derivative.pdf"}
+      References:
+        - {Barnes "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
+-
+  Title: Week 2
+  Events:
+    2018-01-30:
+      Label: Lecture
+      Slides:
+        - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Lectures/02a.SGD.pdf"}
+        - {Excess Risk Decomposition: "https://davidrosenberg.github.io/mlcourse/Lectures/02b.excess-risk-decomposition.pdf"}
+        - {L1 and L2 regularization: "https://davidrosenberg.github.io/mlcourse/Lectures/02c.L1L2-regularization.pdf"}
+      Notes:
+        - {PreLecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check.pdf"}
+        - {PreLecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-PreLec-Check_sol.pdf"}
+        - {Completing the Square: "https://davidrosenberg.github.io/mlcourse/Notes/completing-the-square.pdf"}
+        - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-Lec-Check.pdf"}
+        - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-Lec-Check_sol.pdf"}
+      References:
+        - "HTF Ch. 3"
+        - {'Mairal, Bach, and Ponce on Sparse Modeling': "https://arxiv.org/pdf/1411.3230v2.pdf"}
+    2018-01-31:
+      Label: Lab 
+      Slides:
+#        - {Grouping and Elastic Net: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/3a.elastic-net.pdf"} 
+      Notes:
+        - {Lasso and Elastic Net (ipynb): "https://github.com/davidrosenberg/mlcourse/blob/gh-pages/Notebooks/Lasso%20and%20Elastic%20Net/lasso_and_elastic_net.ipynb"}
+      References:
+        - "HTF 3.4"
