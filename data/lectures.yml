@@ -56,12 +56,27 @@
         - {Excess Risk and L1/L2 Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/2-Lec-Check_sol.pdf"}
       References:
         - "HTF Ch. 3"
-        - {'Mairal, Bach, and Ponce on Sparse Modeling': "https://arxiv.org/pdf/1411.3230v2.pdf"}
     2018-01-31:
       Label: Lab 
       Slides:
 #        - {Grouping and Elastic Net: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/3a.elastic-net.pdf"} 
+      References:
+        - "HTF 3.4"
+-
+  Title: Week 3
+  Events:
+    2018-02-06:
+      Label: Lecture
+      Slides:
+        - {Elastic Net and Correlation: "https://davidrosenberg.github.io/mlcourse/Lectures/03a.elastic-net.pdf"}
+        - {Loss Functions: "https://davidrosenberg.github.io/mlcourse/Lectures/03b.loss-functions.pdf"}
       Notes:
+        - {Elastic Net correlation theorem: "https://davidrosenberg.github.io/mlcourse/Notes/elastic-net-theorem.pdf"}
         - {Lasso and Elastic Net (ipynb): "https://github.com/davidrosenberg/mlcourse/blob/gh-pages/Notebooks/Lasso%20and%20Elastic%20Net/lasso_and_elastic_net.ipynb"}
       References:
         - "HTF 3.4"
+        - {'Mairal, Bach, and Ponce on Sparse Modeling': "https://arxiv.org/pdf/1411.3230v2.pdf"}
+    2018-02-07:
+      Label: Lab
+      Slides:
+#        - {Subgradient Descent: "https://davidrosenberg.github.io/mlcourse/Archive/2017Fall/Lectures/05a.subgradient-descent.pdf"}
