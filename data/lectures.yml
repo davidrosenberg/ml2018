@@ -79,4 +79,5 @@
     2018-02-07:
       Label: Lab
       Slides:
-#        - {Subgradient Descent: "https://davidrosenberg.github.io/mlcourse/Archive/2017Fall/Lectures/05a.subgradient-descent.pdf"}
+        - {Subgradient Descent: "https://davidrosenberg.github.io/mlcourse/Lectures/03c.subgradient-descent.pdf"}
+        

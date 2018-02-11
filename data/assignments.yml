@@ -15,9 +15,15 @@ Submit link: "https://gradescope.com"
   ZIP: {hw1.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw1.zip"}
 -
   Label: Homework 2
-  Description: Lasso Ridge Regression
+  Description: Lasso Regression
   Due: 2018-02-13
   PDF: {hw2.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw2.pdf"}
   ZIP: {hw2.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw2.zip"}
+-
+  Label: Homework 3
+  Description: SVM and Sentiment Analysis
+  Due: 2018-02-22
+  PDF: {hw3.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw3.pdf"}
+  ZIP: {hw3.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw3.zip"}
 
 
