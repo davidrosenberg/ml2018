@@ -81,3 +81,20 @@
       Slides:
         - {Subgradient Descent: "https://davidrosenberg.github.io/mlcourse/Lectures/03c.subgradient-descent.pdf"}
         
+-
+  Title: Week 4
+  Events:
+    2018-02-13:
+      Label: Lecture
+      Slides:
+        - {Subgradient Descent (continued): "https://davidrosenberg.github.io/mlcourse/Lectures/04a.subgradients-continued.pdf"}
+        - {SVM Insights from Duality: "https://davidrosenberg.github.io/mlcourse/Lectures/04b.SVM-summary.pdf"}
+        - {The Representer Theorem: "https://davidrosenberg.github.io/mlcourse/Lectures/04c.representer-theorem.pdf"}
+        - {Lagrangian Duality in 10 Minutes (Optional)): "https://davidrosenberg.github.io/mlcourse/Lectures/04d.lagrangian-duality-in-ten-minutes.pdf"}
+      Notes:
+        - {Pre-lecture warmup for SVM and Lagrangians (Optional): "https://davidrosenberg.github.io/mlcourse/Notes/svm-lecture-prep.pdf"}
+        - {Support Vector Machines (Optional): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
+        - {Extreme Abridgement of BV (Optional): "https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf"}
+#        - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/4-Lec-Check.pdf"}
+#        - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/4-Lec-Check_sol.
+        
