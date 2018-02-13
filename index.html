@@ -58,41 +58,41 @@
     
         <div class="week-summary">
                 <section>
-                    <h1><a href="#lecture-week-3">Slides</a></h1>
+                    <h1><a href="#lecture-week-4">Slides</a></h1>
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/03a.elastic-net.pdf">Elastic Net and Correlation</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/03b.loss-functions.pdf">Loss Functions</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/03c.subgradient-descent.pdf">Subgradient Descent</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/04a.subgradients-continued.pdf">Subgradient Descent (continued)</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/04b.SVM-summary.pdf">SVM Insights from Duality</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/04c.representer-theorem.pdf">The Representer Theorem</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/04d.lagrangian-duality-in-ten-minutes.pdf">Lagrangian Duality in 10 Minutes (Optional))</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-3">Notes</a></h1>
+                    <h1><a href="#lecture-week-4">Notes</a></h1>
     
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/elastic-net-theorem.pdf">Elastic Net correlation theorem</a></li>
-                                <li><a href="https://github.com/davidrosenberg/mlcourse/blob/gh-pages/Notebooks/Lasso%20and%20Elastic%20Net/lasso_and_elastic_net.ipynb">Lasso and Elastic Net (ipynb)</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/svm-lecture-prep.pdf">Pre-lecture warmup for SVM and Lagrangians (Optional)</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf">Support Vector Machines (Optional)</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf">Extreme Abridgement of BV (Optional)</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-3">References</a></h1>
+                    <h1><a href="#lecture-week-4">References</a></h1>
     
                     <ul>
-                                <li>HTF 3.4</li>
-                                <li><a href="https://arxiv.org/pdf/1411.3230v2.pdf">Mairal, Bach, and Ponce on Sparse Modeling</a></li>
                     </ul>
                 </section>
                 <section class="assignment">
-                    <h1><a href="#assignment-homework-2">Homework 2</a></h1>
-                    <p>Lasso Regression</p>
+                    <h1><a href="#assignment-homework-3">Homework 3</a></h1>
+                    <p>SVM and Sentiment Analysis</p>
     
-                    <p class="deadline"><strong>Due:</strong> February 13th, 10pm</p>
+                    <p class="deadline"><strong>Due:</strong> February 22nd, 10pm</p>
                     <div class="files">
-                            <a href="https://davidrosenberg.github.io/mlcourse/Homework/hw2.pdf" class="pdf icon">hw2.pdf</a>
-                            <a href="https://davidrosenberg.github.io/mlcourse/Homework/hw2.zip" class="zip icon">hw2.zip</a>
+                            <a href="https://davidrosenberg.github.io/mlcourse/Homework/hw3.pdf" class="pdf icon">hw3.pdf</a>
+                            <a href="https://davidrosenberg.github.io/mlcourse/Homework/hw3.zip" class="zip icon">hw3.zip</a>
                     </div>
                 </section>
     
-            <p>Deep dive into Lasso, Ridge, and Elastic Net regression.</p>
+            <p>Subgradient descent, representer theorem, more SVM, and features</p>
         </div>
     </section>
 </section>
@@ -486,6 +486,54 @@
                         <td class="notes">
                             <h1 class="phone-only-block">Notes</h1>
                                 (None)
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                (None)
+                        </td>
+                    </tr>
+            </table>
+        </section>
+        <section class="module" id="lecture-week-4">
+            <h1>Week 4</h1>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Slides</th>
+                        <th>Notes</th>
+                        <th>References</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lecture
+                                <span class="date">Feb 13</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/04a.subgradients-continued.pdf">Subgradient Descent (continued)</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/04b.SVM-summary.pdf">SVM Insights from Duality</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/04c.representer-theorem.pdf">The Representer Theorem</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/04d.lagrangian-duality-in-ten-minutes.pdf">Lagrangian Duality in 10 Minutes (Optional))</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/svm-lecture-prep.pdf">Pre-lecture warmup for SVM and Lagrangians (Optional)</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf">Support Vector Machines (Optional)</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf">Extreme Abridgement of BV (Optional)</a></li>
+                                </ul>
                         </td>
                         <td class="references">
                             <h1 class="phone-only-block">References</h1>
