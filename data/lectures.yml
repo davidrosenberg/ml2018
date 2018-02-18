@@ -92,9 +92,20 @@
         - {The Representer Theorem: "https://davidrosenberg.github.io/mlcourse/Lectures/04c.representer-theorem.pdf"}
         - {Lagrangian Duality in 10 Minutes (Optional)): "https://davidrosenberg.github.io/mlcourse/Lectures/04d.lagrangian-duality-in-ten-minutes.pdf"}
       Notes:
-        - {Pre-lecture warmup for SVM and Lagrangians (Optional): "https://davidrosenberg.github.io/mlcourse/Notes/svm-lecture-prep.pdf"}
+        - {"Subgradients": "https://davidrosenberg.github.io/mlcourse/Labs/4-Subgradients-Notes_sol.pdf"}
+        - {Pre-lecture warmup for SVM and Lagrangians: "https://davidrosenberg.github.io/mlcourse/Notes/svm-lecture-prep.pdf"}
+        - {SVM Insights from Duality: "https://davidrosenberg.github.io/mlcourse/Notes/SVM-main-points.pdf"}
+        - {Subgradients and Lagrangian Duality Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/4-Lec-Check.pdf"}
+        - {Subgradients and Lagrangian Duality Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/4-Lec-Check_sol.pdf"}
+      References:
+        - {Boyd subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
         - {Support Vector Machines (Optional): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
         - {Extreme Abridgement of BV (Optional): "https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf"}
-#        - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/4-Lec-Check.pdf"}
-#        - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/4-Lec-Check_sol.
+    2018-02-14:
+      Label: Lab
+      Slides:
+#        - {Features: "https://davidrosenberg.github.io/mlcourse/Labs/features/tex/04b.features.pdf"}
+      Notes:
+# Put in a link to the notebooks
+
         
