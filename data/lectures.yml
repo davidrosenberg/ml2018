@@ -29,7 +29,7 @@
       References:
         - {"Bottou's SGD Tricks": "http://leon.bottou.org/papers/bottou-tricks-2012"}
     2018-01-24:
-      Label: Lab 
+      Label: Lab
       Slides:
         - {Gradients and Directional Derivatives: "https://davidrosenberg.github.io/mlcourse/Labs/1-gradients-Slides.pdf"}
       Notes:
@@ -57,9 +57,9 @@
       References:
         - "HTF Ch. 3"
     2018-01-31:
-      Label: Lab 
+      Label: Lab
       Slides:
-#        - {Grouping and Elastic Net: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/3a.elastic-net.pdf"} 
+#        - {Grouping and Elastic Net: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/3a.elastic-net.pdf"}
       References:
         - "HTF 3.4"
 -
@@ -80,7 +80,7 @@
       Label: Lab
       Slides:
         - {Subgradient Descent: "https://davidrosenberg.github.io/mlcourse/Lectures/03c.subgradient-descent.pdf"}
-        
+
 -
   Title: Week 4
   Events:
@@ -104,8 +104,13 @@
     2018-02-14:
       Label: Lab
       Slides:
-#        - {Features: "https://davidrosenberg.github.io/mlcourse/Labs/features/tex/04b.features.pdf"}
+        - {Features: "https://github.com/davidrosenberg/mlcourse/blob/gh-pages/Labs/4-Features/tex/04e.features.pdf"}
       Notes:
-# Put in a link to the notebooks
+        - {Simplest Example: "https://github.com/davidrosenberg/mlcourse/blob/gh-pages/Notebooks/Features/simple_feature_transformations.ipynb"}
+        - {Ingesting text with BOW: "https://github.com/davidrosenberg/mlcourse/blob/gh-pages/Notebooks/Features/test_BOW.ipynb"}
+        - {Polynomial features: "https://github.com/davidrosenberg/mlcourse/blob/gh-pages/Notebooks/Features/polynomial_feature_comparison.ipynb"}
+        - {Vector quantization with k-means: "https://github.com/davidrosenberg/mlcourse/blob/gh-pages/Notebooks/Features/vector_quantization.ipynb"}
+      References:
+        - {Feature Engineering for Machine Learning by Casari and Zheng: "https://www.safaribooksonline.com/library/view/feature-engineering-for/9781491953235/"}
 
-        
+
