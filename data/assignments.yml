@@ -25,5 +25,13 @@ Submit link: "https://gradescope.com"
   Due: 2018-02-22
   PDF: {hw3.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw3.pdf"}
   ZIP: {hw3.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw3.zip"}
+-
+  Label: Homework 4
+  Description: Kernel Methods
+  Due: 2018-03-02
+  PDF: {hw4.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw4.pdf"}
+  ZIP: {hw4.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw4.zip"}
+
+
 
 
