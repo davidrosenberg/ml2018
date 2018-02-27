@@ -130,8 +130,17 @@
       Slides:
         - {CitySense: "https://davidrosenberg.github.io/mlcourse/Lectures/05b.citysense.pdf"}
         - {Maximum Likelihood: "https://davidrosenberg.github.io/mlcourse/Lectures/05c.MLE.pdf"}
-        - {Conditional Probability Models: "https://davidrosenberg.github.io/mlcourse/Lectures/05d.conditional-probability-models.pdf"}
-      Notes:
-        - {"Exponential Distribution Example (First part)": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/conditional-exponential-distributions.pdf"}
-
+-
+  Title: Week 6
+  Events:
+    2018-02-20:
+      Label: Lecture
+      Slides:
+        - {Conditional Probability Models: "https://davidrosenberg.github.io/mlcourse/Lectures/06a.conditional-probability-models.pdf"}
+        - {Bayesian Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/06b.bayesian-methods.pdf"}
+      Notes: 
+        - {"Exponential Distribution Example (First part)": "https://davidrosenberg.github.io/mlcourse/Notes/conditional-exponential-distributions.pdf"}
+        - {Conditional Model Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check.pdf"}
+        - {Conditional Model Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check_sol.pdf"}
+        - {"Proportionality Review": "https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf"}
 
