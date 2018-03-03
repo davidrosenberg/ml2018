@@ -119,7 +119,7 @@
       Label: Lecture
       Slides:
         - {Kernel Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/05a.kernel-methods.pdf"}
-      Notes: 
+      Notes:
         - {Kernel Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/5-Lab-Check.pdf"}
         - {Kernel Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/5-Lab-Check_sol.pdf"}
       References:
@@ -138,10 +138,10 @@
       Slides:
         - {Conditional Probability Models: "https://davidrosenberg.github.io/mlcourse/Lectures/06a.conditional-probability-models.pdf"}
         - {Bayesian Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/06b.bayesian-methods.pdf"}
-      Notes: 
+      Notes:
         - {"Exponential Distribution Example (First part)": "https://davidrosenberg.github.io/mlcourse/Notes/conditional-exponential-distributions.pdf"}
-        - {Conditional Model Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check.pdf"}
-        - {Conditional Model Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check_sol.pdf"}
+        - {Conditional Model Questions: https://github.com/davidrosenberg/mlcourse/blob/gh-pages/ConceptChecks/10-Lab-Check.pdf"}
+        - {Conditional Model Solutions: "https://github.com/davidrosenberg/mlcourse/blob/gh-pages/ConceptChecks/10-Lab-Check_sol.pdf"}
         - {"Proportionality Review": "https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf"}
     2018-02-21:
       Label: Lab
