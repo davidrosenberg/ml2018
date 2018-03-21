@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8">
-<title>DS-GA 1003 / CSCI-GA 2567: Machine Learning and Computational Statistics, Spring 2018</title>
+<title>DS-GA 1003 / CSCI-GA 2567: Machine Learning, Spring 2018</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <link rel="stylesheet" href="styles/style.css">
 <link rel="stylesheet" media="only screen and (max-width: 770px)" href="styles/tablet-and-phone.css">
@@ -21,7 +21,7 @@
 
 <section id="home">
     <h1>
-        Machine Learning and Computational Statistics
+        Machine Learning
         <span class="course">
             DS-GA 1003 / CSCI-GA 2567 · Spring 2018 ·
             <a class="department" href="http://cds.nyu.edu/">NYU Center for Data Science</a>
@@ -46,7 +46,7 @@
             <td>Instructor: Wednesdays 5:00-6:00pm <a href="https://goo.gl/VoxR4R">CDS</a> (<a href="https://goo.gl/uU2EwV">60 5th Ave.</a>), 6th floor, Room 650</td>
         </tr>
         <tr>
-            <td>TA: Wednesdays 7:45-8:45pm, <a href="https://goo.gl/VoxR4R">CDS</a> (<a href="https://goo.gl/uU2EwV">60 5th Ave.</a>) Room C15</td>
+            <td>Section Leader: Wednesdays 7:45-8:45pm, <a href="https://goo.gl/VoxR4R">CDS</a> (<a href="https://goo.gl/uU2EwV">60 5th Ave.</a>) Room C15</td>
         </tr>
         <tr>
             <td>Graders: Mondays 3:30-4:30pm <a href="https://goo.gl/VoxR4R">CDS</a> (<a href="https://goo.gl/uU2EwV">60 5th Ave.</a>), 6th floor, Room 660</td>
@@ -58,27 +58,27 @@
     
         <div class="week-summary">
                 <section>
-                    <h1><a href="#lecture-week-6">Slides</a></h1>
+                    <h1><a href="#lecture-week-8">Slides</a></h1>
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/06a.conditional-probability-models.pdf">Conditional Probability Models</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/06b.bayesian-methods.pdf">Bayesian Methods</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/06c.midterm-review.pdf">Review for Midterm</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/08a.bayesian-methods.pdf">Bayesian Methods</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/08b.bayesian-regression.pdf">Bayesian Linear Regression</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-6">Notes</a></h1>
+                    <h1><a href="#lecture-week-8">Notes</a></h1>
     
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/conditional-exponential-distributions.pdf">Exponential Distribution Example (First part)</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/10-Lab-Check.pdf">Conditional Model Questions</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/10-Lab-Check_sol.pdf">Conditional Model Solutions</a></li>
                                 <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf">Proportionality Review</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/in-prep/multivariate-gaussian.pdf">Multivariate Gaussians (draft)</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/in-prep/bayesian-regression.pdf">Bayesian Linear Regression (draft)</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-6">References</a></h1>
+                    <h1><a href="#lecture-week-8">References</a></h1>
     
                     <ul>
+                                <li>Barber 9.1, 18.1</li>
+                                <li>Bishop 3.3</li>
                     </ul>
                 </section>
                 <section class="assignment">
@@ -92,7 +92,7 @@
                     </div>
                 </section>
     
-            <p>Conditional probability models, introduction to Bayesian methods, and Midterm Review.</p>
+            <p>Bayesian methods and midterm review</p>
         </div>
     </section>
 </section>
@@ -144,7 +144,7 @@
         <h1>Important Dates</h1>
         <ul>
             <li><strong>Midterm Exam</strong> (100 min) Tuesday, March 6th, 5:20–7pm.</li>
-            <li><strong>Final Exam</strong> (100 min) Tentatively May 15th.</li>
+            <li><strong>Final Exam</strong> (100 min) Tuesday, May 15th, 6-7:50pm (confirmed).</li>
             <li>See <a href="#assignments">Assignments</a> section for homework-related deadlines.</li>
             <li>See <a href="#project">Project</a> section for project-related deadlines.</li>
         </ul>
@@ -668,15 +668,13 @@
                         <th class="label">
                             <h1>
                                 Lecture
-                                <span class="date">Feb 20</span>
+                                <span class="date">Feb 27</span>
                             </h1>
                         </th>
                         <td class="slides">
                             <h1 class="phone-only-block">Slides</h1>
                                 <ul>
                                         <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/06a.conditional-probability-models.pdf">Conditional Probability Models</a></li>
-    
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/06b.bayesian-methods.pdf">Bayesian Methods</a></li>
                                 </ul>
                         </td>
                         <td class="notes">
@@ -684,11 +682,9 @@
                                 <ul>
                                         <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/conditional-exponential-distributions.pdf">Exponential Distribution Example (First part)</a></li>
     
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/10-Lab-Check.pdf">Conditional Model Questions</a></li>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check.pdf">Conditional Model Questions</a></li>
     
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/10-Lab-Check_sol.pdf">Conditional Model Solutions</a></li>
-    
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf">Proportionality Review</a></li>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check_sol.pdf">Conditional Model Solutions</a></li>
                                 </ul>
                         </td>
                         <td class="references">
@@ -700,7 +696,7 @@
                         <th class="label">
                             <h1>
                                 Lab
-                                <span class="date">Feb 21</span>
+                                <span class="date">Feb 28</span>
                             </h1>
                         </th>
                         <td class="slides">
@@ -716,6 +712,108 @@
                         <td class="references">
                             <h1 class="phone-only-block">References</h1>
                                 (None)
+                        </td>
+                    </tr>
+            </table>
+        </section>
+        <section class="module" id="lecture-week-7">
+            <h1>Week 7</h1>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Slides</th>
+                        <th>Notes</th>
+                        <th>References</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Midterm Exam
+                                <span class="date">Mar 6</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                (None)
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                (None)
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                (None)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Project Adviser Meetings
+                                <span class="date">Mar 7</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                (None)
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                (None)
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                (None)
+                        </td>
+                    </tr>
+            </table>
+        </section>
+        <section class="module" id="lecture-week-8">
+            <h1>Week 8</h1>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Slides</th>
+                        <th>Notes</th>
+                        <th>References</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lecture
+                                <span class="date">Mar 20</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/08a.bayesian-methods.pdf">Bayesian Methods</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/08b.bayesian-regression.pdf">Bayesian Linear Regression</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf">Proportionality Review</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/in-prep/multivariate-gaussian.pdf">Multivariate Gaussians (draft)</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/in-prep/bayesian-regression.pdf">Bayesian Linear Regression (draft)</a></li>
+                                </ul>
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li>Barber 9.1, 18.1</li>
+    
+                                        <li>Bishop 3.3</li>
+                                </ul>
                         </td>
                     </tr>
             </table>
@@ -907,7 +1005,7 @@
     </section>
 
     <section>
-        <h1>Teaching Assistants</h1>
+        <h1>Section Leader</h1>
 
         <div class="person module instructor">
             <img src="images/people/ben.jpg" alt="A photo of Ben Jakubowski">
@@ -1030,6 +1128,18 @@
                         impacts of legal and political institutions.</p>
                 </div>
             </li>
+            <li class="person module">
+                <img src="images/people/DFL.jpg" alt="A photo of David Frohardt-Lane">
+                <div class="info">
+                    <p class="name"><a href="http://elliottash.com/">David Frohardt-Lane</a></p>
+                    <p class="bio">David Frohardt-Lane is a portfolio manager at
+                    3Red Trading, overseeing a quantitative trading team.
+                    Previously he worked as a trader at GETCO for 8 years. He is
+                    a former professional gambler who has been involved sports
+                    analytics for over 15 years.</p>
+                </div>
+            </li>
+
 
         </ul>
     </section>
