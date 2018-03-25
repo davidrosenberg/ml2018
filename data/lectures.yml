@@ -133,17 +133,37 @@
 -
   Title: Week 6
   Events:
-    2018-02-20:
+    2018-02-27:
       Label: Lecture
       Slides:
         - {Conditional Probability Models: "https://davidrosenberg.github.io/mlcourse/Lectures/06a.conditional-probability-models.pdf"}
-        - {Bayesian Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/06b.bayesian-methods.pdf"}
       Notes:
         - {"Exponential Distribution Example (First part)": "https://davidrosenberg.github.io/mlcourse/Notes/conditional-exponential-distributions.pdf"}
-        - {Conditional Model Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/10-Lab-Check.pdf"}
-        - {Conditional Model Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/10-Lab-Check_sol.pdf"}
-        - {"Proportionality Review": "https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf"}
-    2018-02-21:
+        - {Conditional Model Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check.pdf"}
+        - {Conditional Model Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check_sol.pdf"}
+    2018-02-28:
       Label: Lab
       Slides:
         - {Review for Midterm: "https://davidrosenberg.github.io/mlcourse/Lectures/06c.midterm-review.pdf"}
+-
+  Title: Week 7
+  Events:
+    2018-03-06:
+      Label: Midterm Exam
+    2018-03-07:
+      Label: Project Adviser Meetings
+-
+  Title: Week 8
+  Events:
+    2018-03-20:
+      Label: Lecture
+      Slides:
+        - {'Bayesian Methods': "https://davidrosenberg.github.io/mlcourse/Lectures/08a.bayesian-methods.pdf"}
+        - {'Bayesian Linear Regression': "https://davidrosenberg.github.io/mlcourse/Lectures/08b.bayesian-regression.pdf"}
+      Notes:
+        - {"Proportionality Review": "https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf"}
+        - {"Multivariate Gaussians (draft)": "https://davidrosenberg.github.io/mlcourse/in-prep/multivariate-gaussian.pdf"}
+        - {"Bayesian Linear Regression (draft)": "https://davidrosenberg.github.io/mlcourse/in-prep/bayesian-regression.pdf"}
+      References:
+        - "Barber 9.1, 18.1"
+        - "Bishop 3.3"
