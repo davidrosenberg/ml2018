@@ -140,8 +140,8 @@
         - {Bayesian Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/06b.bayesian-methods.pdf"}
       Notes:
         - {"Exponential Distribution Example (First part)": "https://davidrosenberg.github.io/mlcourse/Notes/conditional-exponential-distributions.pdf"}
-        - {Conditional Model Questions: https://github.com/davidrosenberg/mlcourse/blob/gh-pages/ConceptChecks/10-Lab-Check.pdf"}
-        - {Conditional Model Solutions: "https://github.com/davidrosenberg/mlcourse/blob/gh-pages/ConceptChecks/10-Lab-Check_sol.pdf"}
+        - {Conditional Model Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/10-Lab-Check.pdf"}
+        - {Conditional Model Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/10-Lab-Check_sol.pdf"}
         - {"Proportionality Review": "https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf"}
     2018-02-21:
       Label: Lab
