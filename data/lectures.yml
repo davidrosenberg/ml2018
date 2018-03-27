@@ -139,8 +139,8 @@
         - {Conditional Probability Models: "https://davidrosenberg.github.io/mlcourse/Lectures/06a.conditional-probability-models.pdf"}
       Notes:
         - {"Exponential Distribution Example (First part)": "https://davidrosenberg.github.io/mlcourse/Notes/conditional-exponential-distributions.pdf"}
-        - {Conditional Model Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check.pdf"}
-        - {Conditional Model Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check_sol.pdf"}
+        - {Conditional Model Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/10-Lab-Check.pdf"}
+        - {Conditional Model Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/10-Lab-Check_sol.pdf"}
     2018-02-28:
       Label: Lab
       Slides:
