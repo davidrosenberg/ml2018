@@ -159,7 +159,22 @@
       Label: Lecture
       Slides:
         - {'Bayesian Methods': "https://davidrosenberg.github.io/mlcourse/Lectures/08a.bayesian-methods.pdf"}
-        - {'Bayesian Linear Regression': "https://davidrosenberg.github.io/mlcourse/Lectures/08b.bayesian-regression.pdf"}
+        - {'Bayesian Conditional Models': "https://davidrosenberg.github.io/mlcourse/Lectures/08b.bayesian-regression.pdf"}
+      Notes:
+        - {"Proportionality Review": "https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf"}
+      References:
+        - "Barber 9.1, 18.1"
+        - "Bishop 3.3"
+    2018-03-21:
+      Label: Canceled for snow
+-
+  Title: Week 9
+  Events:
+    2018-03-27:
+      Label: Lecture
+      Slides:
+        - {'Bayesian Conditional Models': "https://davidrosenberg.github.io/mlcourse/Lectures/09a.bayesian-regression.pdf"}
+        - {'Multiclass': "https://davidrosenberg.github.io/mlcourse/Lectures/09b.multiclass.pdf"}
       Notes:
         - {"Proportionality Review": "https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf"}
         - {"Multivariate Gaussians (draft)": "https://davidrosenberg.github.io/mlcourse/in-prep/multivariate-gaussian.pdf"}
