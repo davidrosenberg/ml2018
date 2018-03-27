@@ -164,6 +164,8 @@
         - {"Proportionality Review": "https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf"}
         - {"Multivariate Gaussians (draft)": "https://davidrosenberg.github.io/mlcourse/in-prep/multivariate-gaussian.pdf"}
         - {"Bayesian Linear Regression (draft)": "https://davidrosenberg.github.io/mlcourse/in-prep/bayesian-regression.pdf"}
+        - {Bayesian Methods and Regression Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/11-Lec-Check.pdf"}
+        - {Bayesian Methods and Regression Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/11-Lec-Check_sol.pdf"}
       References:
         - "Barber 9.1, 18.1"
         - "Bishop 3.3"
