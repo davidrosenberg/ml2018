@@ -174,7 +174,6 @@
       Label: Lecture
       Slides:
         - {'Bayesian Conditional Models': "https://davidrosenberg.github.io/mlcourse/Lectures/09a.bayesian-regression.pdf"}
-        - {'Multiclass': "https://davidrosenberg.github.io/mlcourse/Lectures/09b.multiclass.pdf"}
       Notes:
         - {"Proportionality Review": "https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf"}
         - {"Multivariate Gaussians (draft)": "https://davidrosenberg.github.io/mlcourse/in-prep/multivariate-gaussian.pdf"}
@@ -184,3 +183,32 @@
       References:
         - "Barber 9.1, 18.1"
         - "Bishop 3.3"
+    2018-03-28:
+      Label: Lab
+      Slides:
+        - {'Multiclass': "https://davidrosenberg.github.io/mlcourse/Lectures/09b.multiclass.pdf"}
+      References:
+        - "SSBD Chapter 17"
+        - {In Defense of One-Vs-All Classification: "http://www.jmlr.org/papers/v5/rifkin04a.html"}
+        - {Reducing Multiclass to Binary: "http://www.jmlr.org/papers/volume1/allwein00a/allwein00a.pdf"} 
+-
+  Title: Week 10
+  Events:
+    2018-04-03:
+      Label: Lecture
+      Slides:
+        - {Classification and Regression Trees: "https://davidrosenberg.github.io/mlcourse/Lectures/10a.trees.pdf"}
+        - {'Intro to the Bootstrap': "https://davidrosenberg.github.io/mlcourse/Lectures/10b.bootstrap.pdf"}
+      References:
+        - "JWHT 5.2 (Bootstrap)"
+        - "HTF 7.11 (Bootstrap)"
+        - "JWHT 8.1 (Trees)"
+        - "HTF 9.2 (Trees)"
+    2018-04-04:
+      Label: Lab
+      Slides:
+        - {'Bagging and Random Forests': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/9a.bagging-random-forests.pdf"}
+      References:
+        - "JWHT 8.2 (Bagging/RF)"
+        - "HTF 8.7, 15, 10 (Bagging/RF)"
+        - {A Conversation with Jerry Friedman: "https://arxiv.org/pdf/1507.08502.pdf"}
