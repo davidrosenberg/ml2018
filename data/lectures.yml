@@ -207,7 +207,7 @@
     2018-04-04:
       Label: Lab
       Slides:
-        - {'Bagging and Random Forests': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/9a.bagging-random-forests.pdf"}
+        - {'Bagging and Random Forests': "https://davidrosenberg.github.io/mlcourse/Lectures/10c.bagging-random-forests.pdf"}
       References:
         - "JWHT 8.2 (Bagging/RF)"
         - "HTF 8.7, 15, 10 (Bagging/RF)"
