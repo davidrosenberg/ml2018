@@ -58,29 +58,30 @@
     
         <div class="week-summary">
                 <section>
-                    <h1><a href="#lecture-week-9">Slides</a></h1>
+                    <h1><a href="#lecture-week-10">Slides</a></h1>
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/09a.bayesian-regression.pdf">Bayesian Conditional Models</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/09b.multiclass.pdf">Multiclass</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10a.trees.pdf">Classification and Regression Trees</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10b.bootstrap.pdf">Intro to the Bootstrap</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10c.bagging-random-forests.pdf">Bagging and Random Forests</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-9">Notes</a></h1>
+                    <h1><a href="#lecture-week-10">Notes</a></h1>
     
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf">Proportionality Review</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/in-prep/multivariate-gaussian.pdf">Multivariate Gaussians (draft)</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/in-prep/bayesian-regression.pdf">Bayesian Linear Regression (draft)</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/11-Lec-Check.pdf">Bayesian Methods and Regression Questions</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/11-Lec-Check_sol.pdf">Bayesian Methods and Regression Solutions</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-9">References</a></h1>
+                    <h1><a href="#lecture-week-10">References</a></h1>
     
                     <ul>
-                                <li>Barber 9.1, 18.1</li>
-                                <li>Bishop 3.3</li>
+                                <li>JWHT 5.2 (Bootstrap)</li>
+                                <li>HTF 7.11 (Bootstrap)</li>
+                                <li>JWHT 8.1 (Trees)</li>
+                                <li>HTF 9.2 (Trees)</li>
+                                <li>JWHT 8.2 (Bagging/RF)</li>
+                                <li>HTF 8.7, 15, 10 (Bagging/RF)</li>
+                                <li><a href="https://arxiv.org/pdf/1507.08502.pdf">A Conversation with Jerry Friedman</a></li>
                     </ul>
                 </section>
                 <section class="assignment">
@@ -94,7 +95,7 @@
                     </div>
                 </section>
     
-            <p>Bayesian conditional probability models, multiclass classification, and introduction to structured prediction.</p>
+            <p>Trees and tree-based methods -- CART, Bootstrap, Bagging, and Random Forest</p>
         </div>
     </section>
 </section>
@@ -859,8 +860,6 @@
                             <h1 class="phone-only-block">Slides</h1>
                                 <ul>
                                         <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/09a.bayesian-regression.pdf">Bayesian Conditional Models</a></li>
-    
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/09b.multiclass.pdf">Multiclass</a></li>
                                 </ul>
                         </td>
                         <td class="notes">
@@ -883,6 +882,108 @@
                                         <li>Barber 9.1, 18.1</li>
     
                                         <li>Bishop 3.3</li>
+                                </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lab
+                                <span class="date">Mar 28</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/09b.multiclass.pdf">Multiclass</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                (None)
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li>SSBD Chapter 17</li>
+    
+                                        <li><a href="http://www.jmlr.org/papers/v5/rifkin04a.html">In Defense of One-Vs-All Classification</a></li>
+    
+                                        <li><a href="http://www.jmlr.org/papers/volume1/allwein00a/allwein00a.pdf">Reducing Multiclass to Binary</a></li>
+                                </ul>
+                        </td>
+                    </tr>
+            </table>
+        </section>
+        <section class="module" id="lecture-week-10">
+            <h1>Week 10</h1>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Slides</th>
+                        <th>Notes</th>
+                        <th>References</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lecture
+                                <span class="date">Apr 3</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10a.trees.pdf">Classification and Regression Trees</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10b.bootstrap.pdf">Intro to the Bootstrap</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                (None)
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li>JWHT 5.2 (Bootstrap)</li>
+    
+                                        <li>HTF 7.11 (Bootstrap)</li>
+    
+                                        <li>JWHT 8.1 (Trees)</li>
+    
+                                        <li>HTF 9.2 (Trees)</li>
+                                </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lab
+                                <span class="date">Apr 4</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10c.bagging-random-forests.pdf">Bagging and Random Forests</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                (None)
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li>JWHT 8.2 (Bagging/RF)</li>
+    
+                                        <li>HTF 8.7, 15, 10 (Bagging/RF)</li>
+    
+                                        <li><a href="https://arxiv.org/pdf/1507.08502.pdf">A Conversation with Jerry Friedman</a></li>
                                 </ul>
                         </td>
                     </tr>
