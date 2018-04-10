@@ -58,31 +58,29 @@
     
         <div class="week-summary">
                 <section>
-                    <h1><a href="#lecture-week-10">Slides</a></h1>
+                    <h1><a href="#lecture-week-11">Slides</a></h1>
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10a.trees.pdf">Classification and Regression Trees</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10b.bootstrap.pdf">Intro to the Bootstrap</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10c.bagging-random-forests.pdf">Bagging and Random Forests</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/11a.bagging-random-forests.pdf">Bagging and Random Forests</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/11b.gradient-boosting.pdf">Gradient Boosting</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-10">Notes</a></h1>
+                    <h1><a href="#lecture-week-11">Notes</a></h1>
     
                     <ul>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/9-Lec-Check.pdf">Trees, Bootstrap, Bagging, and RF Questions</a></li>
-                                <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/9-Lec-Check_sol.pdf">Trees, Bootstrap, Bagging, and RF Solutions</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/9-GBM-Notes.pdf">Gradient Boosting</a></li>
+                                <li><a href="https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/gbm.py">gbm.py</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h1><a href="#lecture-week-10">References</a></h1>
+                    <h1><a href="#lecture-week-11">References</a></h1>
     
                     <ul>
-                                <li>JWHT 5.2 (Bootstrap)</li>
-                                <li>HTF 7.11 (Bootstrap)</li>
-                                <li>JWHT 8.1 (Trees)</li>
-                                <li>HTF 9.2 (Trees)</li>
                                 <li>JWHT 8.2 (Bagging/RF)</li>
                                 <li>HTF 8.7, 15, 10 (Bagging/RF)</li>
+                                <li><a href="http://statweb.stanford.edu/~jhf/ftp/trebst.pdf">Friedman's GBM Paper</a></li>
+                                <li><a href="http://www.saedsayad.com/docs/gbm2.pdf">Ridgeway's GBM Guide</a></li>
+                                <li><a href="http://arxiv.org/abs/1603.02754">XGBoost Paper</a></li>
                                 <li><a href="https://arxiv.org/pdf/1507.08502.pdf">A Conversation with Jerry Friedman</a></li>
                     </ul>
                 </section>
@@ -97,7 +95,7 @@
                     </div>
                 </section>
     
-            <p>Trees and tree-based methods -- CART, Bootstrap, Bagging, and Random Forest</p>
+            <p>Ensemble methods -- bagging, random forests, gradient boosting</p>
         </div>
     </section>
 </section>
@@ -806,6 +804,8 @@
                             <h1 class="phone-only-block">Notes</h1>
                                 <ul>
                                         <li><a href="https://davidrosenberg.github.io/mlcourse/Notes/proportionality.pdf">Proportionality Review</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/in-prep/thompson-sampling-bernoulli.pdf">Thompson Sampling for Bernoulli Bandits [Optional]</a></li>
                                 </ul>
                         </td>
                         <td class="references">
@@ -902,11 +902,7 @@
                         </td>
                         <td class="notes">
                             <h1 class="phone-only-block">Notes</h1>
-                                <ul>
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/7-Lec-Check.pdf">Multiclass Questions</a></li>
-    
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/7-Lec-Check_sol.pdf">Multiclass Solutions</a></li>
-                                </ul>
+                                (None)
                         </td>
                         <td class="references">
                             <h1 class="phone-only-block">References</h1>
@@ -944,8 +940,6 @@
                             <h1 class="phone-only-block">Slides</h1>
                                 <ul>
                                         <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10a.trees.pdf">Classification and Regression Trees</a></li>
-    
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10b.bootstrap.pdf">Intro to the Bootstrap</a></li>
                                 </ul>
                         </td>
                         <td class="notes">
@@ -955,10 +949,6 @@
                         <td class="references">
                             <h1 class="phone-only-block">References</h1>
                                 <ul>
-                                        <li>JWHT 5.2 (Bootstrap)</li>
-    
-                                        <li>HTF 7.11 (Bootstrap)</li>
-    
                                         <li>JWHT 8.1 (Trees)</li>
     
                                         <li>HTF 9.2 (Trees)</li>
@@ -975,15 +965,57 @@
                         <td class="slides">
                             <h1 class="phone-only-block">Slides</h1>
                                 <ul>
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10c.bagging-random-forests.pdf">Bagging and Random Forests</a></li>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/10b.bootstrap.pdf">Intro to the Bootstrap</a></li>
+                                </ul>
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                (None)
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                <ul>
+                                        <li>JWHT 5.2 (Bootstrap)</li>
+    
+                                        <li>HTF 7.11 (Bootstrap)</li>
+                                </ul>
+                        </td>
+                    </tr>
+            </table>
+        </section>
+        <section class="module" id="lecture-week-11">
+            <h1>Week 11</h1>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Slides</th>
+                        <th>Notes</th>
+                        <th>References</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lecture
+                                <span class="date">Apr 10</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                <ul>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/11a.bagging-random-forests.pdf">Bagging and Random Forests</a></li>
+    
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Lectures/11b.gradient-boosting.pdf">Gradient Boosting</a></li>
                                 </ul>
                         </td>
                         <td class="notes">
                             <h1 class="phone-only-block">Notes</h1>
                                 <ul>
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/9-Lec-Check.pdf">Trees, Bootstrap, Bagging, and RF Questions</a></li>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/9-GBM-Notes.pdf">Gradient Boosting</a></li>
     
-                                        <li><a href="https://davidrosenberg.github.io/mlcourse/ConceptChecks/9-Lec-Check_sol.pdf">Trees, Bootstrap, Bagging, and RF Solutions</a></li>
+                                        <li><a href="https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/gbm.py">gbm.py</a></li>
                                 </ul>
                         </td>
                         <td class="references">
@@ -993,8 +1025,34 @@
     
                                         <li>HTF 8.7, 15, 10 (Bagging/RF)</li>
     
+                                        <li><a href="http://statweb.stanford.edu/~jhf/ftp/trebst.pdf">Friedman's GBM Paper</a></li>
+    
+                                        <li><a href="http://www.saedsayad.com/docs/gbm2.pdf">Ridgeway's GBM Guide</a></li>
+    
+                                        <li><a href="http://arxiv.org/abs/1603.02754">XGBoost Paper</a></li>
+    
                                         <li><a href="https://arxiv.org/pdf/1507.08502.pdf">A Conversation with Jerry Friedman</a></li>
                                 </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="label">
+                            <h1>
+                                Lab
+                                <span class="date">Apr 11</span>
+                            </h1>
+                        </th>
+                        <td class="slides">
+                            <h1 class="phone-only-block">Slides</h1>
+                                (None)
+                        </td>
+                        <td class="notes">
+                            <h1 class="phone-only-block">Notes</h1>
+                                (None)
+                        </td>
+                        <td class="references">
+                            <h1 class="phone-only-block">References</h1>
+                                (None)
                         </td>
                     </tr>
             </table>
