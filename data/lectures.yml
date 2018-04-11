@@ -220,6 +220,7 @@
       Slides:
         - {'Bagging and Random Forests': "https://davidrosenberg.github.io/mlcourse/Lectures/11a.bagging-random-forests.pdf"}
         - {'Gradient Boosting': "https://davidrosenberg.github.io/mlcourse/Lectures/11b.gradient-boosting.pdf"}
+        - {'Adaboost [Optional]': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/9b.adaboost.pdf"}
       Notes:
         - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/9-GBM-Notes.pdf"}
         - {"gbm.py": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/gbm.py"}
@@ -236,4 +237,5 @@
     2018-04-11:
       Label: Lab
       Slides:
+        - {'Neural Networks': "https://davidrosenberg.github.io/mlcourse/Lectures/12a.neural-networks.pdf"}
       References:
