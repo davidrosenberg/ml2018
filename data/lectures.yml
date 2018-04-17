@@ -219,23 +219,36 @@
       Label: Lecture
       Slides:
         - {'Bagging and Random Forests': "https://davidrosenberg.github.io/mlcourse/Lectures/11a.bagging-random-forests.pdf"}
-        - {'Gradient Boosting': "https://davidrosenberg.github.io/mlcourse/Lectures/11b.gradient-boosting.pdf"}
         - {'Adaboost [Optional]': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/9b.adaboost.pdf"}
       Notes:
-        - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/9-GBM-Notes.pdf"}
-        - {"gbm.py": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/gbm.py"}
         - {"Trees, Bootstrap, Bagging, and RF Questions": "https://davidrosenberg.github.io/mlcourse/ConceptChecks/9-Lec-Check.pdf"}
         - {"Trees, Bootstrap, Bagging, and RF Solutions": "https://davidrosenberg.github.io/mlcourse/ConceptChecks/9-Lec-Check_sol.pdf"}
       References:
         - "JWHT 8.2 (Bagging/RF)"
         - "HTF 8.7, 15, 10 (Bagging/RF)"
-        - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
-        - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
-        - {XGBoost Paper: http://arxiv.org/abs/1603.02754}
-#        - {"Bühlmann and Hothorn's Boosting Paper": https://projecteuclid.org/euclid.ss/1207580163}
         - {A Conversation with Jerry Friedman: "https://arxiv.org/pdf/1507.08502.pdf"}
     2018-04-11:
       Label: Lab
       Slides:
-        - {'Neural Networks': "https://davidrosenberg.github.io/mlcourse/Lectures/12a.neural-networks.pdf"}
+        - {'Gradient Boosting': "https://davidrosenberg.github.io/mlcourse/Lectures/11b.gradient-boosting.pdf"}
+      Notes:
+        - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/9-GBM-Notes.pdf"}
+        - {"gbm.py": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/gbm.py"}
       References:
+        - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
+        - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
+        - {XGBoost Paper: http://arxiv.org/abs/1603.02754}
+#        - {"Bühlmann and Hothorn's Boosting Paper": https://projecteuclid.org/euclid.ss/1207580163}
+-
+  Title: Week 12
+  Events:
+    2018-04-17:
+      Label: Lecture
+      Slides:
+        - {'Neural Networks': "https://davidrosenberg.github.io/mlcourse/Lectures/12a.neural-networks.pdf"}
+        - {'Back Propagation': "https://davidrosenberg.github.io/mlcourse/Lectures/12b.backpropagation.pdf"}
+      Notes:
+      References:
+    2018-04-18:
+      Label: Project Adviser Meetings
+
