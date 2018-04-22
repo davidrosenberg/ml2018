@@ -253,4 +253,20 @@
       References:
     2018-04-18:
       Label: Project Adviser Meetings
+-
+  Title: Week 13
+  Events:
+    2018-04-24:
+      Label: Lecture
+      Slides:
+        - {'k-Means Clustering': "https://davidrosenberg.github.io/mlcourse/Lectures/13.k-means.pdf"}
+        - {'Gaussian Mixture Models': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/13.lab.mixture-models.pdf"}
+        - {'General EM Algorithm': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/14a.EM-algorithm.pdf"}
+      Notes:
+      References:
+        - "HTF, 13.2.1 (k-means)"
+        - "Bishop 9.2,9.3 (GMM/EM)"
+    2018-04-18:
+      Label: Project Adviser Meetings
+
 
