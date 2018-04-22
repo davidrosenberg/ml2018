@@ -236,6 +236,8 @@
         - {"Boosting Questions": "https://davidrosenberg.github.io/mlcourse/ConceptChecks/boosting-Lec-Check.pdf"}
         - {"Boosting Solutions": "https://davidrosenberg.github.io/mlcourse/ConceptChecks/boosting-Lec-Check_sol.pdf"}
         - {"gbm.py": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/gbm.py"}
+        - {"Exponential Distribution Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Notes/conditional-exponential-distributions.pdf"}
+        - {"Poisson Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Notes/poisson-gradient-boosting.pdf"} 
       References:
         - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
         - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
@@ -251,6 +253,8 @@
         - {'Back Propagation': "https://davidrosenberg.github.io/mlcourse/Lectures/12b.backpropagation.pdf"}
       Notes:
       References:
+        - {'Yes you should understand backprop (Karpathy)': "https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b"}
+        - {'Challenges with backprop (Karpathy Lecture)': "https://youtu.be/gYpoJMlgyXA?t=13m44s"}
     2018-04-18:
       Label: Project Adviser Meetings
 -
@@ -258,15 +262,17 @@
   Events:
     2018-04-24:
       Label: Lecture
+      Video: "https://youtu.be/tgCIAft_W24?t=48m48s"
       Slides:
-        - {'k-Means Clustering': "https://davidrosenberg.github.io/mlcourse/Lectures/13.k-means.pdf"}
-        - {'Gaussian Mixture Models': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/13.lab.mixture-models.pdf"}
-        - {'General EM Algorithm': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/14a.EM-algorithm.pdf"}
+        - {'k-Means (See Video Link)': "https://davidrosenberg.github.io/mlcourse/Lectures/13a.k-means.pdf"}
+        - {'Gaussian Mixture Models': "https://davidrosenberg.github.io/mlcourse/Lectures/13b.mixture-models.pdf"}
+        - {'General EM Algorithm': "https://davidrosenberg.github.io/mlcourse//Lectures/13c.EM-algorithm.pdf"}
       Notes:
       References:
         - "HTF, 13.2.1 (k-means)"
         - "Bishop 9.2,9.3 (GMM/EM)"
-    2018-04-18:
-      Label: Project Adviser Meetings
+        - {"An Alternative to EM for GMM [Optional]": "https://arxiv.org/pdf/1706.03267.pdf"}
+    2018-04-25:
+      Label: Course Review
 
 
