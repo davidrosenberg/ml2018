@@ -6,7 +6,7 @@
 #      Video: "https://youtu.be/U6M0m9c9_Js"
       Slides:
         - {Black Box Machine Learning: "https://davidrosenberg.github.io/mlcourse/Archive/2017Fall/Lectures/01.black-box-ML.pdf"}
-#        - {Evaluating Classifiers: "https://davidrosenberg.github.io/mlcourse/Archive/2017Fall/Lectures/06b.classifier-performance.pdf"}
+        - {Evaluating Classifiers: "https://davidrosenberg.github.io/mlcourse/Archive/2017Fall/Lectures/06b.classifier-performance.pdf"}
       Notes:
         - {Géron's Machine Learning Landscape: "https://github.com/ageron/handson-ml/blob/master/01_the_machine_learning_landscape.ipynb"}
         - {Géron's End-to-End Machine Learning: "https://github.com/ageron/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb"}
@@ -24,6 +24,7 @@
         - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Lectures/01c.SGD.pdf"}
 #        - {Excess Risk Decomposition: "https://davidrosenberg.github.io/mlcourse/Lectures/01d.excess-risk-decomposition.pdf"}
       Notes:
+        - {Conditional Expectations: "https://davidrosenberg.github.io/mlcourse/Notes/conditional-expectations.pdf"}
         - {SLT and SGD Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check.pdf"}
         - {SLT and SGD Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/ConceptChecks/1-Lec-Check_sol.pdf"}
       References:
