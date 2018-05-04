@@ -238,7 +238,7 @@
         - {"Boosting Solutions": "https://davidrosenberg.github.io/mlcourse/ConceptChecks/boosting-Lec-Check_sol.pdf"}
         - {"gbm.py": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/gbm.py"}
         - {"Exponential Distribution Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Notes/conditional-exponential-distributions.pdf"}
-        - {"Poisson Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Notes/poisson-gradient-boosting.pdf"}
+        - {"Poisson Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Notes/poisson-gradient-boosting.pdf"} 
       References:
         - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
         - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
@@ -275,17 +275,5 @@
         - {"An Alternative to EM for GMM [Optional]": "https://arxiv.org/pdf/1706.03267.pdf"}
     2018-04-25:
       Label: Course Review
-
-Title: Week 14
-  Events:
-    2018-05-01:
-      Label: Lecture
-      Slides:
-        - {'Feature Importance (ipynb -- view with damianavila/RISE)': "https://davidrosenberg.github.io/mlcourse/Labs/FeatureImportance/feature-importance-slides.ipynb"}
-      Notes:
-      References:
-        - "See references in ipynb"
-    2018-05-02:
-      Label: Project advisor meetings.
 
 
