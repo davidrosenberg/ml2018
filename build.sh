@@ -9,9 +9,8 @@ rm -rf styles/*.css
 
 npm run build-in-place
 
-cp index.html favicon.ico out/
-
 mkdir -p out/styles/
+cp index.html favicon.ico out/
 cp styles/*.css out/styles/
 
 cp -r images fonts scripts out/
