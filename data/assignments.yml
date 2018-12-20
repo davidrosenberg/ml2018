@@ -5,47 +5,47 @@ Submit link: "https://gradescope.com"
   Label: Homework 0
   Description: Typesetting your homework
   Due: 2000-01-01
-  PDF: {hw0.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Homework/hw0.pdf"}
-  ZIP: {hw0.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Homework/hw0.zip"}
+  PDF: {hw0.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw0.pdf"}
+  ZIP: {hw0.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw0.zip"}
 -
   Label: Homework 1
   Description: GD, SGD, and Ridge Regression
   Due: 2018-02-01
-  PDF: {hw1.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw1.pdf"}
-  ZIP: {hw1.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw1.zip"}
+  PDF: {hw1.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw1.pdf"}
+  ZIP: {hw1.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw1.zip"}
 -
   Label: Homework 2
   Description: Lasso Regression
   Due: 2018-02-13
-  PDF: {hw2.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw2.pdf"}
-  ZIP: {hw2.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw2.zip"}
+  PDF: {hw2.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw2.pdf"}
+  ZIP: {hw2.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw2.zip"}
 -
   Label: Homework 3
   Description: SVM and Sentiment Analysis
   Due: 2018-02-22
-  PDF: {hw3.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw3.pdf"}
-  ZIP: {hw3.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw3.zip"}
+  PDF: {hw3.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw3.pdf"}
+  ZIP: {hw3.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw3.zip"}
 -
   Label: Homework 4
   Description: Kernel Methods
   Due: 2018-03-02
-  PDF: {hw4.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw4.pdf"}
-  ZIP: {hw4.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw4.zip"}
+  PDF: {hw4.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw4.pdf"}
+  ZIP: {hw4.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw4.zip"}
 -
   Label: Homework 5
   Description: Probabilistic Modeling
   Due: 2018-04-09
-  PDF: {hw5.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw5.pdf"}
-  ZIP: {hw5.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw5.zip"}
+  PDF: {hw5.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw5.pdf"}
+  ZIP: {hw5.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw5.zip"}
 -
   Label: Homework 6
   Description: Multiclass, Trees, and Gradient Boosting
   Due: 2018-04-23
-  PDF: {hw6.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw6.pdf"}
-  ZIP: {hw6.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw6.zip"}
+  PDF: {hw6.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw6.pdf"}
+  ZIP: {hw6.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw6.zip"}
 -
   Label: Homework 7
   Description: Computation Graphs, Backprop, and Neural Networks
   Due: 2018-05-11
-  PDF: {hw7.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw7.pdf"}
-  ZIP: {hw7.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw7.zip"}
+  PDF: {hw7.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw7.pdf"}
+  ZIP: {hw7.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2018/Homework/hw7.zip"}
