@@ -7,7 +7,7 @@
     "stylus": "stylus styles"
   },
   "devDependencies": {
-    "handlebars": "^4.0.6",
+    "handlebars": "^4.5.3",
     "js-yaml": "^3.2.5",
     "glob": "^7.1.2",
     "moment": "^2.9.0",
